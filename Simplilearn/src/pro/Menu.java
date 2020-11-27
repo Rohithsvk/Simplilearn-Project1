@@ -14,7 +14,10 @@ public class Menu
 		System.out.println("				********************************				");
 		System.out.println("						Locked.Me								");
 		System.out.println("				********************************				");
-
+		System.out.println("				********************************				");
+		System.out.println("									------Developed by Rohithsvk");	
+		
+		
 		Menu in= new Menu();
 		in.menuList();
 
@@ -160,7 +163,7 @@ try {
 		{
 		System.out.println("List of the files in the directory");
     	
-		String dir ="C:\\Users\\REVANTH\\eclipse-workspace\\Simplilearn";
+		String dir ="C:\\Users\\REVANTH\\git\\repository-simplilearn\\Simplilearn";
 		File directory = new File(dir);
 		File[] fileList = directory.listFiles();
 		if (fileList != null)
@@ -226,7 +229,7 @@ try {
 		
 		try  
 		{ 
-			File directory = new File("C:\\\\Users\\\\REVANTH\\\\eclipse-workspace\\\\Simplilearn"); 
+			File directory = new File("C:\\Users\\REVANTH\\git\\repository-simplilearn\\Simplilearn"); 
 			System.out.println("Enter the file that you want to Delete");
 			Scanner sc = new Scanner(System.in);
 			String data = sc.next();
@@ -280,7 +283,7 @@ try {
 		 try {
 			
 		 
-			 File directory = new File("C:\\Users\\REVANTH\\eclipse-workspace\\Simplilearn"); 
+			 File directory = new File("C:\\Users\\REVANTH\\git\\repository-simplilearn\\Simplilearn"); 
 
 				
 				System.out.println("Enter the file name to search:");
